@@ -1,3 +1,4 @@
+<div id="Contact">
 <section id="Newsletter" class="home-section nopadding paddingtop-140">
 		
 			<div class="row">
@@ -48,3 +49,4 @@
 			</div>
 		
 	</section>
+	</div>

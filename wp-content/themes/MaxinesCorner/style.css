@@ -8,3 +8,12 @@ Version: 1.0
 
 */
 
+.home-section h1.h1Text{
+	color: #000;
+margin: 30px;
+font-weight: bold;
+}
+.product-section
+{
+	margin-top:-71px;
+}

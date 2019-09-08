@@ -94,4 +94,64 @@ while ( $post_query->have_posts() ) : $post_query->the_post(); ?>
 <?php endif; // ending condition ?>
 */
 
+
+
+
+function product_post_by_sajed() {
+  $labels = array(
+    'name'               => _x( 'Products', 'post type general name' ),
+    'singular_name'      => _x( 'Product', 'post type singular name' ),
+    'add_new'            => _x( 'Add New', 'Product' ),
+    'add_new_item'       => __( 'Add New Products' ),
+    'edit_item'          => __( 'Edit Product' ),
+    'new_item'           => __( 'New Product' ),
+    'all_items'          => __( 'All Products' ),
+    'view_item'          => __( 'View Product' ),
+    'search_items'       => __( 'Search Products' ),
+    'not_found'          => __( 'No Product found' ),
+    'not_found_in_trash' => __( 'No Product found in the Trash' ), 
+    'parent_item_colon'  => '',
+    'menu_name'          => 'Products'
+  );
+  $args = array(
+    'labels'        => $labels,
+    'description'   => 'Holds products and plan specific data',
+    'public'        => true,
+    'menu_position' => 5,
+    'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt','custom-fields','revisions' ),
+    'has_archive'   => true,
+  );
+  
+
+  
+  register_post_type( 'products', $args ); 
+}
+add_action( 'init', 'product_post_by_sajed' );
+
+
+// for custom category 
+
+function taxonomies_products_by_sajed() {
+  $labels = array(
+    'name'              => _x( 'Products Categories', 'taxonomy general name' ),
+    'singular_name'     => _x( 'Product Category', 'taxonomy singular name' ),
+    'search_items'      => __( 'Search Product Categories' ),
+    'all_items'         => __( 'All Products Categories' ),
+    'parent_item'       => __( 'Parent Product Category' ),
+    'parent_item_colon' => __( 'Parent Product Category:' ),
+    'edit_item'         => __( 'Edit Product Category' ), 
+    'update_item'       => __( 'Update Product Category' ),
+    'add_new_item'      => __( 'Add New Product Category' ),
+    'new_item_name'     => __( 'New Product Category' ),
+    'menu_name'         => __( 'Product Categories' ),
+  );
+  $args = array(
+    'labels' => $labels,
+    'hierarchical' => true,
+  );
+  register_taxonomy( 'leagues', 'products', $args );
+}
+add_action( 'init', 'taxonomies_products_by_sajed', 0 );
+
+
 ?>

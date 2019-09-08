@@ -5,8 +5,8 @@
             <li><a href="#video">Video</a></li>          
 			<li><a href="#about">About</a></li>          
 			<li><a href="#pricing">Weight Loss</a></li>
-            <li><a href="#Newsletter">Contact</a></li>       
-			<li><a href="">MaxinesCorner Store</a></li>
+            <li><a href="#Contact">Contact</a></li>       
+			<li><a href="<?php home_url('') ?>maxinescorner-store">MaxinesCorner Store</a></li>
 			<li><a href="https://amzn.to/2PcWuk5">Amazon Store</a></li>
            <!-- <li><a href="#pricing">Pricing</a></li>-->
             <!--<li class="dropdown">
