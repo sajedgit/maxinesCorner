@@ -17,3 +17,11 @@ font-weight: bold;
 {
 	margin-top:-71px;
 }
+
+.TotalSoft_GV_CP_Iframe {
+    width: 100%!important;
+    height: 89%!important;
+    position: absolute!important;
+    left: 0%!important;
+    margin-top: 5px!important;
+}
