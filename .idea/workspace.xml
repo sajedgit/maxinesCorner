@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07958cd9-d3a1-4a4a-bfd0-78dc563decc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/Backup_sidebar-pricing - Copy.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/Backup_sidebar-pricing - Copy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/form_submit.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/form_submit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/maxines_corner_store.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/maxines_corner_store.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/sidebar-contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/sidebar-contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/sidebar-intro.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/sidebar-intro.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/sidebar-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/sidebar-menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/sidebar-page-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/sidebar-page-menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/sidebar-pricing.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/sidebar-pricing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/sidebar-recipe.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/sidebar-recipe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/single.php" afterDir="false" />
-    </list>
+    <list default="true" id="07958cd9-d3a1-4a4a-bfd0-78dc563decc0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +80,14 @@
       <option name="presentableId" value="Default" />
       <updated>1568278886567</updated>
     </task>
+    <task id="LOCAL-00001" summary="some updates after confusion">
+      <created>1568279399963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568279399963</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -119,5 +111,9 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="some updates after confusion" />
+    <option name="LAST_COMMIT_MESSAGE" value="some updates after confusion" />
   </component>
 </project>
