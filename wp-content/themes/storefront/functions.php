@@ -67,3 +67,66 @@ if ( version_compare( get_bloginfo( 'version' ), '4.7.3', '>=' ) && ( is_admin()
  * Note: Do not add any custom code here. Please use a custom plugin so that your customizations aren't lost during updates.
  * https://github.com/woocommerce/theme-customisations
  */
+
+ 
+ 
+ add_action("after_setup_theme", "storefront_child_header_remove");
+function storefront_child_header_remove()
+{
+    //remove_action("storefront_header","storefront_site_branding",20);
+    ///remove_action("storefront_header","storefront_secondary_navigation",30);
+    //remove_action("storefront_header","storefront_product_search",40);
+   // remove_action("storefront_header","storefront_primary_navigation_wrapper",42);
+    //remove_action("storefront_header","storefront_primary_navigation",50);
+    //remove_action("storefront_header","storefront_header_cart",60);
+   // remove_action("storefront_header","storefront_primary_navigation_wrapper_close",68);
+}
+ 
+ 
+ 
+/*  add_action( 'storefront_header', 'jk_storefront_header_content', 40 );
+function jk_storefront_header_content() { ?>
+	<div style="clear: both; text-align: right;">
+		Have questions about our products? <em>Give us a call:</em> <strong>0800 123 456</strong>
+	</div>
+	<?php
+} */
+
+
+add_action( 'storefront_header' , 'custom_storefront_header', 1 );
+function custom_storefront_header () {
+    remove_action( 'storefront_header' , 'storefront_site_branding', 20 );
+    add_action( 'storefront_header' , 'custom_site_branding', 20 );
+    function custom_site_branding() {
+        // HERE set the link of your logo or site title
+        $link = home_url( '/my-custom-link/' );
+        ?>
+         
+            <div class="navbar-header page-scroll">         
+			 <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">   
+			 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo_thumb.png"  alt=""  style="height:75px;"   />     
+			 </a>   
+		 </div>  
+         
+        <?php
+    }
+	
+	remove_action( 'storefront_header', 'storefront_product_search', 40 );
+    add_action( 'storefront_header', 'storefront_product_search', 20 );
+	
+	
+	remove_action( 'storefront_header', 'storefront_primary_navigation', 50 );
+    add_action( 'storefront_header', 'storefront_primary_navigation', 30 );
+	
+	
+	
+	remove_action( 'storefront_header', 'storefront_header_cart', 60 );
+    add_action( 'storefront_header', 'storefront_header_cart', 30 );
+	
+	
+}
+
+
+ 
+
+

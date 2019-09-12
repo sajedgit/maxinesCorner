@@ -15,6 +15,42 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+<style>
+div.col-full .navbar-header
+{
+	width: 20%;
+	float: left;
+}
+div.col-full .site-search
+{
+	margin-top: 13px;
+}
+div#page .site-header
+{
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+form.woocommerce-product-search .search-field
+{
+	background-color: #ffe6e6;
+	color: #43454b;
+	outline: 0;
+
+	box-shadow: none;
+
+}
+form.woocommerce-product-search .search-field:focus
+{
+	background-color: #ffcccc;
+	color: #43454b;
+	
+}
+div#page .storefront-breadcrumb {
+    margin: 0;
+    padding: 1em 0;
+}
+</style>
+
 <?php wp_head(); ?>
 </head>
 
