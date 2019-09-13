@@ -49,6 +49,10 @@ div#page .storefront-breadcrumb {
     margin: 0;
     padding: 1em 0;
 }
+header.woocommerce-products-header
+{
+    padding: 0 0 0.997em!important;
+}
 </style>
 
 <?php wp_head(); ?>
