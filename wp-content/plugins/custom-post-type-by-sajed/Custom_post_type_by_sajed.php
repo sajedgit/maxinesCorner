@@ -96,7 +96,7 @@ while ( $post_query->have_posts() ) : $post_query->the_post(); ?>
 
 
 
-
+/*
 function product_post_by_sajed() {
   $labels = array(
     'name'               => _x( 'Products', 'post type general name' ),
@@ -152,6 +152,7 @@ function taxonomies_products_by_sajed() {
   register_taxonomy( 'leagues', 'products', $args );
 }
 add_action( 'init', 'taxonomies_products_by_sajed', 0 );
+*/
 
 
 ?>
