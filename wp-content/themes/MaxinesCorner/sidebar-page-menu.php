@@ -6,7 +6,7 @@
 			<li><a href="<?php echo home_url(); ?>#about">About</a></li>          
 			<li><a href="<?php echo home_url(); ?>#pricing">Weight Loss</a></li>
             <li><a href="<?php echo home_url(); ?>#Contact">Contact</a></li>    
-			<li><a href="<?php home_url('') ?>maxinescorner-store">MaxinesCorner Store</a></li>
+			<li><a href="<?php site_url() ?>maxinescorner-store">MaxinesCorner Store</a></li>
 			<li><a href="https://amzn.to/2PcWuk5">Amazon Store</a></li>
            <!-- <li><a href="#pricing">Pricing</a></li>-->
             <!--<li class="dropdown">
