@@ -6,7 +6,7 @@ Plugin URI:
 Description: This plugin is used for add a custom post type as well as custom category.
 Version: 1.0
 Author: Md. Sajed Ahmed
-Author URI: 
+Author URI: https://togetinspire.com/ 
 License: GPLv2 or later
 Text Domain:  Custom post type by Sajed
 */ 

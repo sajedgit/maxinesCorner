@@ -8,7 +8,7 @@
             <div class="col-sm-6 col-md-6 col-lg-6">
               <div class="wow fadeInLeft" data-wow-delay="0.1s">
                 <div class="text-left">
-                  <p>&copy;Copyright - ABC. All rights reserved.</p>
+                  <p>&copy;Copyright - MaxinesCorner. All rights reserved.</p>
                 </div>
               </div>
             </div>
@@ -22,7 +22,7 @@
                       Licensing information: https://bootstrapmade.com/license/
                       Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Medicio
                     -->
-                    Designed by <a href="#">abc</a>
+                      Developed by <a href="https://togetinspire.com/">Sajed Ahmed</a>
                   </div>
                 </div>
               </div>
