@@ -760,12 +760,9 @@ hr.bold {
 }
 
 .intro-content {
-	background: url(https://maxinescorner.com/wp-content/uploads/2019/09/bg_intro.jpg) no-repeat top center;
+	background: url(../../img/dummy/bg_intro.jpg) no-repeat top center;
 	padding:200px 0 60px;	 
 }
-
-
-
 .intro-content.intro-nobg {
 	background:#fff;
 	position:relative;

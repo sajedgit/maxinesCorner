@@ -45,9 +45,11 @@
 		 </div>  
 		 <!-- navbar-menus -->		
 		 <?php if(is_page()):	
-		 get_sidebar( 'page-menu' ); 	
-		 else:			
-		 get_sidebar( 'menu' );    
+		   get_sidebar( 'page-menu' ); 	
+		 elseif(is_single()):	
+		  get_sidebar( 'single-menu' ); 
+		 else:
+		  get_sidebar( 'menu' );    
 		 endif;					
 		 ?>     
 	 <!-- /.navbar-menus -->

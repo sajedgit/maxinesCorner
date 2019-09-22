@@ -25,7 +25,7 @@
 
              
                 <h3 class="video_title"><a target="_black" href="https://www.youtube.com/channel/UCSajIp92azFrr6F6bdMSJzQ" style="color:green;">New Videos</a></h3>
-                <p class="video_sub_title" style="color:#000;">Every Thursday </p>
+                <p class="video_sub_title" style="color:#000;">Weekly </p>
 				
 				<div class=" ">
                   <a class="btn btn-skin btn-lg" href="https://www.youtube.com/channel/UCSajIp92azFrr6F6bdMSJzQ">SUBCRIBE!</a>

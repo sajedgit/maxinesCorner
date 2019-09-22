@@ -1,5 +1,5 @@
  <section id="intro" class="intro">
-      <div class="intro-content">
+      <div class="intro-content222" style="padding:200px 0 60px;background:url(<?php echo get_template_directory_uri(); ?>/img/dummy/bg_intro.jpg) no-repeat top center">
         <div class="container">
           <div class="row">
             <div class="col-lg-6 bg-text">
