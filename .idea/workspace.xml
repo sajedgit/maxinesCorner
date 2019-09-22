@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07958cd9-d3a1-4a4a-bfd0-78dc563decc0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/maxinesCorner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/maxinesCorner.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/sidebar-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/sidebar-menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/sidebar-page-menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/MaxinesCorner/sidebar-page-menu.php" afterDir="false" />
-    </list>
+    <list default="true" id="07958cd9-d3a1-4a4a-bfd0-78dc563decc0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +26,7 @@
   <component name="ProjectId" id="1Qogbcw9UXaqKsWTFLzRl0HZXaN" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../affiliate_app" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,6 +52,7 @@
       <updated>1568278886567</updated>
       <workItem from="1568442452514" duration="353000" />
       <workItem from="1568444070866" duration="1056000" />
+      <workItem from="1568726316708" duration="225000" />
     </task>
     <task id="LOCAL-00001" summary="some updates after confusion">
       <created>1568279399963</created>
@@ -65,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568279399963</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="some updates after confusion">
+      <created>1568726453833</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568726453833</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

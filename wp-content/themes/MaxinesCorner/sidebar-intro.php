@@ -2,9 +2,9 @@
       <div class="intro-content">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 bg-text">
               <div class="wow fadeInDown" data-wow-offset="0" data-wow-delay="0.1s">
-                <h2 class="h-ultra" style="color:#fff;">Maxinescorner</h2>
+                <h2 class="h-ultra" style="color:#fff;">Maxines Corner</h2>
               </div> 
               <div class="well well-trans">
                 <div class="wow fadeInRight" data-wow-delay="0.1s">
