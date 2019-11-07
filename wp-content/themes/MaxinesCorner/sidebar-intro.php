@@ -1,4 +1,13 @@
- <section id="intro" class="intro">
+ <section id="intro" class="intro paddingtop-40" style="background: #fff;">
+      <div class="intro-content222" style="padding:341px 0 60px;background:url(<?php echo get_template_directory_uri(); ?>/img/maxinecorner.jpg) no-repeat top center">
+     
+      </div>
+    </section> 
+
+
+
+<?php 
+/* <section id="intro" class="intro">
       <div class="intro-content222" style="padding:200px 0 60px;background:url(<?php echo get_template_directory_uri(); ?>/img/dummy/bg_intro.jpg) no-repeat top center">
         <div class="container">
           <div class="row">
@@ -30,4 +39,5 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> */
+	?>

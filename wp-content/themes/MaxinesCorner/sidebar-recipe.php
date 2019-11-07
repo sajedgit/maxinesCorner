@@ -1,5 +1,5 @@
 <!-- Section: post -->
-    <section id="post" class="home-section paddingtop-140">
+    <section id="post" class="home-section paddingtop-40">
 
 	<div class="container">
 	
@@ -7,7 +7,7 @@
 	$args = array(
 		'post_type' => 'post',
 		'post_status' => 'publish',
-		'category_name' => 'weight-loss-tips',
+		'category_name' => 'recipes',
 		'posts_per_page' => 6,
 	);
 	$arr_posts = new WP_Query( $args );
@@ -27,7 +27,7 @@
 				<div class="well">
 				  <div class="media">
 					<a class="pull-left" href="#">
-						<img class="media-object"  src="<?php echo get_the_post_thumbnail_url($post_id, ''); ?>" style="width:250px;">
+						<img class="media-object"  src="<?php echo get_the_post_thumbnail_url($post_id, 'thumbnail'); ?>" style="">
 					</a>
 					<div class="media-body">
 						<p class="post_category"><?php  echo $category_name=$category[0]->cat_name;  ?></p>

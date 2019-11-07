@@ -57,7 +57,7 @@ require_once('stripe-config.php');
                 <div class="price-bottom">
 					<?php /*  <a href="#" class="btn btn-skin btn-lg">Buy Now</a>  */ ?>
 					<form action="<?php echo home_url(); ?>/form-submit" method="post">
-					<input class="btn btn-skin btn-lg" 
+					<input class="btn btn-skin btn-lg" id="buy_btn"
 							type="submit" 
 							value="Buy Now"
 							data-key="<?php echo $stripe['publishable_key']; ?>"
@@ -98,7 +98,7 @@ require_once('stripe-config.php');
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
 	<script>
 	$(document).ready(function() {
-		$(':submit').on('click', function(event) {
+		$('#buy_btn').on('click', function(event) {
 			event.preventDefault();
 			var $button = $(this),
 				$form = $button.parents('form');
